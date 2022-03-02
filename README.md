@@ -22,6 +22,10 @@ change how many to sell
 ```js
 const tranq = ___
 ```
+chnage what price to allow selling at
+```js
+const sellabove = tranq * 0.7 //only sells above $0.7
+```
 change how often to sell, in milliseconds
 ```js
 setInterval(function () {
